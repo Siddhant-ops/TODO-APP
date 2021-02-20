@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+.list__postsContainer {
+    background-color: #70707571;
+    border-radius: 20px;
+    min-height: auto;
+    width: 100%;
+    z-index: 100;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    backdrop-filter: blur(2.5px);
+}
+
+.list__textContainer {
+    flex: 0.90;
+    margin: 15px 10px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.9s ease-in-out;
+}
+
+.list__textContainer p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    padding: 10px 15px;
+}
+
+.list__textContainer:hover {
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.list__textContainer span {
+    padding: 10px 15px;
+}
+
+.list__button {
+    flex: 0.1;
+}
